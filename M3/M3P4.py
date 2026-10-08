@@ -1,0 +1,7 @@
+Make = input("Enter the Make of the product: ")
+Model = input("Enter the Make of the product: ")
+msrpAmount = input("Enter the msrp amount: ")
+DiscountPercent = input("Enter the discount percent of the product: ")
+AmountOffmsrp = int(msrpAmount) * int(DiscountPercent)
+DiscountedPrice = int(msrpAmount) - int(AmountOffmsrp)
+print(f"the msrp for {Make} {Model} is {msrpAmount}\nYour discount is {DiscountPercent} saving you ${AmountOffmsrp}\nYou pay ${DiscountedPrice}")
