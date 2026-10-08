@@ -1,0 +1,5 @@
+StockTickerSymbol = input("Enter a stock ticker symbol: ")
+NumberOfShares = input("Enter the number of shares you have: ")
+CostPerShare = input("Enter the cost per each share: ")
+AmountInvested = int(CostPerShare) * int(NumberOfShares)
+print(f"You have invested ${AmountInvested} in {StockTickerSymbol}.")
