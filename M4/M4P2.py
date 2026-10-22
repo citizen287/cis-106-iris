@@ -1,0 +1,5 @@
+PurchasePricePerShare = input("Enter the purchase price per share: ")
+CurrentStockPrice = input("Enter the current stock price: ")
+QuantityOfStock = input("Enter the quantity of stock: ")
+StockValueChange = (float(CurrentStockPrice) - float(PurchasePricePerShare)) * int(QuantityOfStock)
+print(f"The change in the value of your stock is ${StockValueChange}.")

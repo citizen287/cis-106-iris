@@ -1,0 +1,5 @@
+FixedCosts = input("Enter your fixed costs: ")
+PricePerUnit = input("Enter the price per unit: ")
+CostPerUnit = input("Enter the cost per unit: ")
+BreakEvenPoint = float(FixedCosts) / (float(PricePerUnit) - float(CostPerUnit))
+print(f"You need to sell {BreakEvenPoint} items to break even.")
